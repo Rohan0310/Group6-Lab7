@@ -1,18 +1,18 @@
 body{
 	margin: 0 auto;
-	background-color: lightblue;
-	font: 90%	Arial, Helvetica;
+	background-color: powderblue;
+	font: 120%	Arial, Times New Roman;
 }
 .wrapper{
 	display: grid;
-	grid-gap: 10px;
-	grid-template-columns: 50% 40%;
-	grid-template-rows: 30% 70%;
-	background-color: green;
+	grid-gap: 50px;
+	grid-template-columns: 50% 50%;
+	grid-template-rows:  50% 10%;
+	background-color:skyblue;
 }
 .box{
-	padding: 10px;
-	font-size: 150px;
+	padding: 50px;
+	font-size: 160px;
 }
 col-1,
 col-2{
@@ -21,7 +21,7 @@ col-2{
 col-1,
 col-2,
 content{
-	background: blue;
+	background: lightcoral;
 	display: flex;
 	align-items: center;
 	justify-content: center;
